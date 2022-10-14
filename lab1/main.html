@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="stail_main.css">
+</head>
+
+<body>
+    <table class="layout" border="0px">
+        <tbody>
+        <tr>
+            <td colspan="3" id="hat">Минтус Евгений Андреевич P-32121 Вариант №11224</td>
+        </tr>
+       <tr>
+            <td id="YData" align="center"><input id="YInput" type="number" maxlength="2" placeholder="Введите Y (от -3 до 5)" ></td>
+            <td id="XData" align="center">
+                <select id="XSelect">
+                    <option value="Ошибка">Выберите зачение X</option>
+                    <option >-2</option>
+                    <option >-1.5</option>
+                    <option>-1</option>
+                    <option>-0.5</option>
+                    <option>0</option>
+                    <option>0.5</option>
+                    <option>1</option>
+                    <option>1.5</option>
+                    <option>2</option>
+                </select>
+            </td>
+            <td id="RData" align="center">
+                <select id="RSelect">
+                    <option value="Ошибка">Выберите зачение R</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="exercise" colspan="3">
+            <a>Проверить, попадает точка ли точка в заданную область</a>
+                <button id="verify"  data-path="form-popup-change">Проверить</button>
+                <button id="clean"> Очистить</button>
+            </td>
+        </tr>
+        <tr>
+            <td class="leftChart"></td>
+            <td id="rightChart"></td>
+            <td id="chart">
+                <p id="img_chart"><img src="Screenshot 2022-09-15 at 00.51.42.png" alt="Письма мастера дзен"></p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+<script src="main.js"></script>
+</html>

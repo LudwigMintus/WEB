@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding:0;
+
+}
+.data{
+    width: 100%;
+    height: 100vh;
+    color: gold;
+    margin: 0;
+    padding: 0;
+}
+#table_left{
+    width: 10%;
+    background: rgba(86, 10, 10, 0.44);
+
+}
+#table_right{
+    width: 10%;
+    background: rgba(86, 10, 10, 0.44);
+
+}
+#table_center{
+    text-align: center;
+    background: rgba(86, 10, 10, 0.44);
+
+}
+#table_center a {
+    font-family: fantasy;
+    font-size: 50px;
+
+}
+.hat{
+    height: 40px;
+}
+html{
+    background: #000 url(8UjB.gif) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main_table{
+    height: 600px;
+}
+.AnswerTable{
+    width: 100%;
+    height: 80vh;
+    color: gold;
+    border-color: gold;
+}
+#table_hat{
+    margin: 0;
+    height: 50px;
+}
+#table_hat tr td{
+    text-align: center;
+}
+.AnswerTable tr{
+    border: 5px;
+    color: gold;
+}
+#back{
+    margin-left: 5%;
+    width: 1000px;
+    height: 45px;
+    background: rgba(10, 73, 101, 0.44);
+}

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding:0;
+}
+#hat{
+    height: 50px;
+    color: burlywood;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    background: rgba(10, 73, 101, 0.44);
+    margin: 0;
+    border: 0;
+}
+.layout{
+    width: 100%;
+    height: 100vh;
+    color: gold;
+    margin: 0;
+    padding: 0;
+}
+.exercise{
+    text-align: center;
+    height: 20px;
+}
+.exercise a{
+    font-family: fantasy;
+    font-size: 30px;
+}
+.exercise button{
+    margin-left: 5%;
+    width: 200px;
+    height: 45px;
+    background: rgba(10, 73, 101, 0.44);
+}
+#chart{
+
+}
+html{
+    background: #000 url(DnvM.gif) no-repeat center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#menu{
+    width: 20%;
+    height: 80vh;
+}
+#YData{
+    width: 75px;
+    height: 50px;
+    align:"center"
+}
+#XData{
+    width: 75px;
+    height: 50px;
+}
+#RData{
+    width: 75px;
+    height: 50px;
+}
+#footer{
+    height: 30px;
+}
+#free{
+    height: 70%;
+}
+#img_chart{
+margin-left: -50px;
+}
+#YInput{
+    color: black;
+}
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: rgba( 1,1,1,.1);
+}
+.leftChart, #rightChart{
+    width: 34%;
+    text-align: center;
+}
+
+.leftChart a{
+    font-family: fantasy;
+    font-size: 30px;
+}
